@@ -2,14 +2,14 @@
 layout: page
 categories: aboutme
 ---
-<img src="/images/me_round.png" alt="me" style="height:65px; width:65px;" /> <br>  
-This is a short portfolio of some works I’ve done over a past few years. I’m geoscientists & economic analyst by education & [experience](https://www.linkedin.com/in/itishchenko/ "My LinkedIn"). I love data and enjoy making sense of it; lately, I’ve been working as a data and business analyst. Sometimes I get curious, collect data, and analyze it, then I share my findings. Below is a few examples.
+<a href = "https://www.linkedin.com/in/itishchenko/"><img src="/images/me_round.png" alt="me" style="height:65px; width:65px;" href="google.com"/> </a><br>  
+This is a short portfolio of some works I’ve done over a past few years. I’m geoscientists and economic/data analyst by education & experience. I love data and enjoy making sense of it; currently [working](https://www.linkedin.com/in/itishchenko/ "LinkedIn") as a data and business analyst. Sometimes I get curious, collect data, and analyze it, then I share my findings. Below are few examples.
 
 #### Articles / tools
 - [Analysis of Russian elections abroad 2004-2020](https://vearlen.github.io/RU_Elections_04-24/)
 - [Analysis of AK (Chamber of Labour) elections in Austria](https://vearlen.github.io/ak_wahl/)
 - [Emotinal bias](https://www.linkedin.com/pulse/emotional-bias-ilya-tishchenko?trackingId=229nnEj6QZ%2BVe%2FwIVcbgdw%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BqUgd2PBlQFWDQmF8RmA13Q%3D%3D "How I studied economic analysis")
-- [Direct Hydrocarbon Indicator app](https://dhiapp.com/)  
+- [Direct Hydrocarbon Indicator app](https://dhiapp.com/)    
   
 Some published papers, mainly in geoscience domain, could be found on my [researchgate profile](https://www.researchgate.net/profile/Ilya-Tishchenko/research).
 
