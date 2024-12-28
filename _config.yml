@@ -3,3 +3,11 @@ author: Ilya Tishchenko
 theme: minima
 minima:
   skin: solarized-light
+social_links:
+  linkedin: https://www.linkedin.com/in/your-linkedin-username/
+
+plugins:
+  - jekyll-sass-converter
+
+sass:
+  style: compressed
