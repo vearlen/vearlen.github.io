@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is a short portfolio of some works I’ve done over a past few years. I’m geoscientists & economic analyst by education and many years of profession, love data and make sense out of it, thus lately I’m data and business analyst - my [linkedin](https://www.linkedin.com/in/itishchenko/). Sometimes I get curious, collect data and pull it together to make a bit of sense out of it then I share.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+#### Articles / tools
+- [Analysis of Russian elections abroad 2004-2020](https://vearlen.github.io/RU_Elections_04-24/)
+- [Analysis of AK (Chamber of Labour) elections in Austria](https://vearlen.github.io/ak_wahl/)
+- [Direct Hydrocarbon Indicator app](https://dhiapp.com/)  
+  
+Some published papers could be found on my [researchgate profile](https://www.researchgate.net/profile/Ilya-Tishchenko/research).
