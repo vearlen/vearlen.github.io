@@ -1,6 +1,5 @@
 ---
 layout: page
-title: "Intro page"
 categories: aboutme
 ---
 <img src="/images/me_round.png" alt="me" style="height:65px; width:65px;" /> <br>  
