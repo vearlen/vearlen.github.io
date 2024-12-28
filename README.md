@@ -5,6 +5,4 @@ This is a short portfolio of some works I've done over a past few years. I'm geo
 - [Analysis of AK (Chamber of Labour) elections in Austria](https://vearlen.github.io/ak_wahl/)
 - [Direct Hydrocarbon Indicator app](https://dhiapp.com)
 
-### Publications
-
-
+Some published papers could be found on [my researchgate](https://www.researchgate.net/profile/Ilya-Tishchenko/research).
