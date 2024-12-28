@@ -6,5 +6,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: redirect
-redirect_to: /about/
+redirect_to: /about
 ---
