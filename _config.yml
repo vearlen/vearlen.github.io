@@ -1,12 +1,9 @@
 title: Ilya Tishchenko Portfolio
-author:
-  name: Ilya
-  email: i.i.tishchenko@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Ilya Tishchenko portfolio, collection of projects and blog posts.
+  Ilya Tishchenko portfolio, collection of projects and blog posts, personal opinions and thoughts.
 
 # Build settings
 
