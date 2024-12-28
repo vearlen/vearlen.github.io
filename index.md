@@ -12,3 +12,5 @@ This is a short portfolio of some works I’ve done over a past few years. I’m
 - [Direct Hydrocarbon Indicator app](https://dhiapp.com/)  
   
 Some published papers, mainly in geoscience domain, could be found on my [researchgate profile](https://www.researchgate.net/profile/Ilya-Tishchenko/research).
+
+I also love photography and have some cool on-going and past projects, check it out on [morre.me](https://morre.me "Photo portfolio") 📷
