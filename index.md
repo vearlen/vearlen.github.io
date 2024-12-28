@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-<!-- <img src = "/images/me_round.png" alt="Ilya" style="height:125px; width:125px;"/>   -->
+<img src="/images/me_round.png" alt="me" style="height:45px; width:45px;" /> <br>  
 This is a short portfolio of some works I’ve done over a past few years. I’m geoscientists & economic analyst by education & [experience](https://www.linkedin.com/in/itishchenko/ "My LinkedIn"). I love data and enjoy making sense of it; lately, I’ve been working as a data and business analyst. Sometimes I get curious, collect data, and analyze it, then I share my findings. Below is a few examples.
 
 #### Articles / tools
