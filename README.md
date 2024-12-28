@@ -1,4 +1,4 @@
-This is a short portfolio of some works I've done over a past few years. I'm geoscientists by education and many years of profession, love data and make sense out of it, thus lately I'm data and business analyst - my [linkedin](https://www.linkedin.com/in/itishchenko/). Sometimes I get curious, collect data and pull it together to make a bit of sense out of it then I share. 
+This is a short portfolio of some works I've done over a past few years. I'm geoscientists & economic analyst by education and many years of profession, love data and make sense out of it, thus lately I'm data and business analyst - my [linkedin](https://www.linkedin.com/in/itishchenko/). Sometimes I get curious, collect data and pull it together to make a bit of sense out of it then I share. 
 
 ### Articles
 - [Analysis of Russian elections abroad 2004-2020](https://vearlen.github.io/RU_Elections_04-24/)
