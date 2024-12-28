@@ -23,7 +23,14 @@ layout: base
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+      {%- if page.tags -%}
+    {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            #{{ tag }}
+        </a>
+    {% endfor %}
+{%- endif -%}</p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
