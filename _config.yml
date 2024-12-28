@@ -4,7 +4,7 @@ theme: minima
 minima:
   skin: solarized-light
 social_links:
-  linkedin: https://www.linkedin.com/in/your-linkedin-username/
+    linkedin: https://www.linkedin.com/in/your-linkedin-username/
 
 plugins:
   - jekyll-sass-converter
