@@ -3,6 +3,8 @@ layout: post
 title: "Power and Progress"
 tag: books
 ---
+It’s common knowledge that computers have significantly increased our productivity, right? There’s no doubt it’s much faster to calculate accounting data in Excel than by hand. Now, with AI agents all around us, our productivity is set to skyrocket, isn’t it? 
+
 Does technological progress bring shared prosperity? A simple question, though  when unfolding it  has a lot of nuances. Starting with -  who benefits from it, the whole society or a small group? Does technology improve our productivity? Is the way technology affects society is predetermined or could be and should be managed? 
   
 That’s the question set as the key theme of the book “Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity” by Daron Acemoglu and Simon Johnson, winners of the 2024 Nobel Prize for Economics. As I've been recommending this book for about a past month I thought I would sit and write it down.  

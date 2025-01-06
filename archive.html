@@ -4,9 +4,9 @@ title: "Post Archive"
 permalink: /archive.html
 ---
 
-<div>
+<!-- <div>
   <h1 id="page-title">All Tags</h1>
-</div>
+</div> -->
 
 <div id="tags-list">
   <ul class="post-list post-list-narrow" id="filtered-posts">
@@ -20,7 +20,7 @@ permalink: /archive.html
   const selectedTag = urlParams.get('tag');
 
   if (selectedTag) {
-    document.getElementById('page-title').textContent = `Posts Tagged: #${selectedTag}`;
+    document.getElementById('page-title').textContent = `Posts tagged: #${selectedTag}`;
     
     // Get all posts and filter by tag
     const posts = [

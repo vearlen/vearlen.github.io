@@ -10,7 +10,7 @@ layout: base
   <div class="tags-line">
     <strong>Tags:</strong>
     {%- for tag in site.tags %}
-      <a href="{{ site.baseurl }}/archive.html#{{ tag[0] | slugize }}" class="tag-link">#{{ tag[0] }}</a>{% unless forloop.last %}, {% endunless %}
+      <a href="{{ site.baseurl }}/archive.html?tag={{ tag[0] | slugize }}" class="tag-link">#{{ tag[0] }}</a>{% unless forloop.last %}, {% endunless %}
     {%- endfor %}
   </div>
   <br>
