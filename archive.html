@@ -3,30 +3,42 @@ layout: page
 title: "Post Archive"
 permalink: /archive.html
 ---
+
 <div>
-  All of my posts grouped by tag.
-</div> </br>
+  {%- if page.tag -%}
+    <h1>Posts Tagged: #{{ page.tag }}</h1>
+  {%- else -%}
+    <h1>All Tags</h1>
+    <div>
+      <p>Please select a tag from the list or click on a tag in a post.</p>
+    </div>
+  {%- endif -%}
+</div>
 
 <div id="tags-list">
-{% for tag in site.tags %}
-  {% assign tag_name = tag | first %}
-  {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
-  <div class="tag-list">
-    <div id="#{{ tag_name | slugize }}"></div>
-    <h3 class="post-list-heading line-bottom"> In #{{ tag_name }}: </h3>
-    <a name="{{ tag_name | slugize }}"></a>
+  {%- if page.tag -%}
+    {% assign selected_tag = page.tag | downcase %}
     <ul class="post-list post-list-narrow">
-     {% for post in site.tags[tag_name] %}
-     <li>
-       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-       <b>
-         <a href="{{ post.url | relative_url }}">
-           {{ post.title | escape }}
-         </a>
-       </b> - <i>{{ post.date | date: date_format }}</i>
-     </li>
-     {% endfor %}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {% for post in site.tags[selected_tag] %}
+      <li>
+        <b>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </b> - <i>{{ post.date | date: date_format }}</i>
+      </li>
+      {% endfor %}
     </ul>
-  </div>
-{% endfor %}
+  {%- else -%}
+    {% for tag in site.tags %}
+      {% assign tag_name = tag | first %}
+      {% assign tag_name_pretty = tag_name | replace: "_", " " | capitalize %}
+      <div class="tag-list">
+        <h3 class="post-list-heading line-bottom">
+          <a href="/archive.html?tag={{ tag_name | slugize }}">#{{ tag_name }}</a>
+        </h3>
+      </div>
+    {% endfor %}
+  {%- endif -%}
 </div>

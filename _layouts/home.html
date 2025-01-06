@@ -7,6 +7,13 @@ layout: base
     <!-- <h1 class="page-heading">{{ page.title }}</h1> -->
   <!-- {%- endif -%} -->
 
+  <div class="tags-line">
+    <strong>Tags:</strong>
+    {%- for tag in site.tags %}
+      <a href="{{ site.baseurl }}/archive.html#{{ tag[0] | slugize }}" class="tag-link">#{{ tag[0] }}</a>{% unless forloop.last %}, {% endunless %}
+    {%- endfor %}
+  </div>
+  
   {{ content }}
 
 
