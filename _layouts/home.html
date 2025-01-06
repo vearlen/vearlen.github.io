@@ -46,7 +46,12 @@ layout: base
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          <p>
+            {{ post.excerpt }}
+          </p>
+          <p>
+            <a href="{{ post.url | relative_url }}" class="read-more">more...</a>
+          </p>
         {%- endif -%}
       </li>
       {%- endfor -%}
