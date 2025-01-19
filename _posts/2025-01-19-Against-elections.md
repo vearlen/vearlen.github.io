@@ -5,7 +5,7 @@ tags: books politics
 ---
 
 “It would appear that people like the idea of democracy but not the reality of it”, here is a recent survey on [satisfaction with democracy](https://www.pewresearch.org/short-reads/2024/06/18/satisfaction-with-democracy-has-declined-in-recent-years-in-high-income-nations/sr_2024-06-18_satisfaction-democracy_1/). I’m not an exception. There is something wrong with democracy going on isn’t it? The provocative title of the book “Against Elections: The Case For Democracy” should trigger some questions. Is the author insane - what he suggests, no elections, why should I read that even?  
-<img width="400" src='/assets/images/2024-01-19/against_elections.jpg'>
+<img width="400" src='/assets/images/2025-01-19/against_elections.jpg'>
 
 
 I think the title served both sides for good and for bad. Some people start judging the book by its title already without reading it. That’s a pity. 
