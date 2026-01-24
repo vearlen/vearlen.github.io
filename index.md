@@ -9,7 +9,7 @@ This is a short portfolio of some works I’ve done over a past few years. I’m
 - [Analysis of Russian elections abroad 2004-2020](https://vearlen.github.io/RU_Elections_04-24/)
 - [Analysis of AK (Chamber of Labour) elections in Austria](https://vearlen.github.io/ak_wahl/)
 - [Direct Hydrocarbon Indicator app](https://dhiapp.com/) 
-- [Countdown Timer](https://vearlen.github.io/Timer)   
+- [Countdown Timer](https://vearlen.github.io/timer)   
   
 Some published papers, mainly in geoscience domain, could be found on my [researchgate profile](https://www.researchgate.net/profile/Ilya-Tishchenko/research).
 
