@@ -14,4 +14,4 @@ This is a short portfolio of some works I’ve done over a past few years. I’m
 Some published papers, mainly in geoscience domain, could be found on my [researchgate profile](https://www.researchgate.net/profile/Ilya-Tishchenko/research).
 
 
-<img src="/assets/images/pinhole.svg" style="height:25px; margin:-6px"/>  &nbsp; I also love photography and have some cool on-going and past projects, check it out on [morre.me](https://morre.me "Photo portfolio")
+<img src="/assets/images/pinhole.svg" style="height:20px; margin:-6px"/>  &nbsp; I also love photography and have some cool on-going and past projects, check it out on [morre.me](https://morre.me "Photo portfolio")
