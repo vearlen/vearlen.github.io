@@ -9,7 +9,10 @@ Not so long ago I've learned what does it mean "integration", at least now I thi
 It could be described by simple matrix.  
 <img width="400" src='/assets/images/2026-08-10/Multicultural_acculturation-e1657405870340.png'>
 
-But devil is in details — apparently we, immigrants, persue different strategy in private and public life. We are not simply sitting in one quadrant. 
+But devil is in details — apparently we, immigrants, persue different strategy in private and public life. We are not simply sitting in one quadrant. Also in some researches it's shown that variation among same nationalities are huge. A 2024 study on Turkish immigrant parents in England, Germany, the Netherlands, and Norway found four distinct profiles across all four countries — but their sizes differed significantly. In England, with its relatively multicultural national policy, the integration profile was more prominent, while in countries with a stronger emphasis on assimilation (like the Netherlands and Norway), the profile distribution shifted. [2025](https://doi.org/10.1007/s12134-024-01185-2) 
+
+A 2024 study from Finland gives the most granular recent breakdown. Among immigrant-origin youth surveyed in 2023, 71% belonged to high- or medium-integration profiles. The full breakdown was: Medium integration 49%, High integration 22%, "Neo-culture kid" 15%, Separation 6%, Assimilation 6%, and Marginalization the smallest group.[2025](https://doi.org/10.1007/s12134-024-01194-1)
+
 
 There is recent Migrant Integration Policy Index data [2025](https://www.mipex.eu/key-findings-2025) which are quite interesting to explore. For example, EU-average is 54/100 and post-2004 member states (Czech Republic, Estonia, Latvia, Lithuania, Hungary, Poland, Slovakia, Slovenia, Cyprus, Malta, Bulgaria, Romania, Croatia) are on average 44 vs. 63 for pre-2004 countries. However it should be remembered — it measures how much the host country *enables* integration, not how immigrants actually end up. 
 <div id="mipex-wrap" style="width: 100%; overflow-x: auto;">
