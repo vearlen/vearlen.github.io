@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is integration?"
-tags: politics
+tags: politics misc
 ---
 
 Not so long ago I've learned what does it mean "integration", at least now I think I know. I've learned it from Anka and later on I did a quick research. The thing I've learned was introduced in 1980 by John W. Berry, canadian psychologist and known as [Acculturation Model](https://open.maricopa.edu/culturepsychology/chapter/berrys-model-of-acculturation/). Yes, that's probably not new for someone with non-engineer education but for me it was new.  
@@ -152,3 +152,4 @@ buildChart('overall');
 
 </div>
 
+But again — better policy push immigrants towards integration but it's not a guarantee.
