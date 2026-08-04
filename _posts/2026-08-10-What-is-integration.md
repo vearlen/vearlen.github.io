@@ -14,7 +14,7 @@ But devil is in details - apparently we, immigrants, persue different strategy i
 For the MIPEX data - it measures how much the host country *enables* integration, not how immigrants actually end up. 
 <div id="mipex-wrap" style="width: 100%; overflow-x: auto;">
 
-<h3 class="sr-only">MIPEX 2025 — EU country scores on migrant integration policy, with breakdowns across eight policy areas</h3>
+<p class="sr-only" styel="font-weight:bold;">MIPEX 2025 — EU country scores on migrant integration policy, with breakdowns across eight policy areas</p>
 
 <style>
   .mipex-wrap { padding: 1rem 0; font-family: var(--font-sans); }
