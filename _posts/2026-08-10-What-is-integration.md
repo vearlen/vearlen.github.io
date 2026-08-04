@@ -13,7 +13,6 @@ But devil is in details — apparently we, immigrants, persue different strategy
 
 A 2024 study from Finland gives the most granular recent breakdown. Among immigrant-origin youth surveyed in 2023, 71% belonged to high- or medium-integration profiles. The full breakdown was: Medium integration 49%, High integration 22%, "Neo-culture kid" 15%, Separation 6%, Assimilation 6%, and Marginalization the smallest group.[2025](https://doi.org/10.1007/s12134-024-01194-1)
 
-
 There is recent Migrant Integration Policy Index data [2025](https://www.mipex.eu/key-findings-2025) which are quite interesting to explore. For example, EU-average is 54/100 and post-2004 member states (Czech Republic, Estonia, Latvia, Lithuania, Hungary, Poland, Slovakia, Slovenia, Cyprus, Malta, Bulgaria, Romania, Croatia) are on average 44 vs. 63 for pre-2004 countries. However it should be remembered — it measures how much the host country *enables* integration, not how immigrants actually end up. 
 <div id="mipex-wrap" style="width: 100%; overflow-x: auto;">
 
@@ -53,7 +52,7 @@ const areas = {
   education:{ label: 'Education', data: { SE:93,FI:88,BE:74,PT:74,EE:69,AT:64,LU:64,CZ:62,NL:57,DE:55,SI:53,EL:50,RO:50,ES:50,PL:48,DK:45,FR:43,IT:43,LT:43,HR:40,CY:40,MT:40,IE:38,LV:26,SK:26,BG:21,HU:21 }},
   political:{ label: 'Political participation', data: { FI:85,PT:80,SE:80,LU:65,BE:65,DK:60,DE:60,IE:60,ES:55,NL:50,FR:45,SI:40,MT:35,CY:25,IT:25,AT:20,HR:20,EE:20,EL:20,LV:20,PL:20,HU:15,CZ:10,LT:5,RO:5,SK:5,BG:5 }},
   residence:{ label: 'Permanent residence', data: { FI:96,SE:90,HU:81,BE:79,ES:75,PT:71,BG:69,EE:67,IT:67,SK:65,SI:58,LU:58,RO:56,FR:54,HR:54,DE:54,LT:52,NL:52,AT:50,CY:50,CZ:50,IE:50,PL:50,EL:46,LV:46,MT:46,DK:42 }},
-  nationality:{ label: 'Access to nationality', data: { PT:86,SE:83,LU:79,IE:79,FI:74,FR:70,DE:67,BE:65,MT:63,NL:52,CY:50,PL:50,DK:41,EL:40,IT:40,RO:38,CZ:36,ES:30,SK:28,HU:25,LV:24,LT:22,SI:22,HR:19,EE:16,AT:13,BG:9 }},
+  Nationality:{ label: 'Access to nationality', data: { PT:86,SE:83,LU:79,IE:79,FI:74,FR:70,DE:67,BE:65,MT:63,NL:52,CY:50,PL:50,DK:41,EL:40,IT:40,RO:38,CZ:36,ES:30,SK:28,HU:25,LV:24,LT:22,SI:22,HR:19,EE:16,AT:13,BG:9 }},
   antidisc: { label: 'Anti-discrimination', data: { BE:100,BG:100,FI:100,PT:100,RO:100,ES:100,SE:100,SI:96,HU:92,IE:90,NL:85,LU:80,FR:79,SK:79,IT:78,HR:74,DE:70,EL:67,LV:67,CZ:64,MT:63,CY:62,PL:56,AT:53,EE:52,DK:51,LT:51 }},
   health:   { label: 'Health', data: { IE:85,SE:83,AT:81,IT:79,ES:75,BE:73,FI:73,PT:71,NL:65,DE:63,DK:60,FR:60,MT:56,RO:54,CZ:52,LU:50,EL:46,EE:40,CY:36,SK:36,PL:33,SI:33,LT:31,BG:29,HR:29,LV:25,HU:17 }}
 };
