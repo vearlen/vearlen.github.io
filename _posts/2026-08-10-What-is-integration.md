@@ -7,8 +7,17 @@ tags: politics misc
 Not so long ago I've learned what does it mean "integration", at least now I think I know. I've learned it from Anka and later on I did a quick research. The thing I've learned was introduced in 1980 by John W. Berry, canadian psychologist and known as [Acculturation Model](https://open.maricopa.edu/culturepsychology/chapter/berrys-model-of-acculturation/). Yes, that's probably not new for someone with non-engineer education but for me it was new.  
 
 It could be described by simple matrix.  
-<img width="400" src='/assets/images/2026-08-10/Multicultural_acculturation-e1657405870340.png' style="display:block; margin:0 auto;">
 
+```mermaid
+quadrantChart
+    title Acculturation strategies (Berry 1980)
+    x-axis "Home culture rejected" --> "Home culture maintained"
+    y-axis "Host culture rejected" --> "Host culture adopted"
+    quadrant-1 Integration
+    quadrant-2 Assimilation
+    quadrant-3 Marginalization
+    quadrant-4 Separation
+```
 So Integration — being able to leave in host culture, while preserve value and maintain your own and it's quite different from Assimilation, which is often mixed. At least for me it was the case — I've mixed up those two terms frequently.
 
 But devil is in details — apparently we, immigrants, persue different strategy in private and public life. We are not simply sitting in one quadrant. Also in some researches it's shown that variation among same nationalities are huge. A 2024 study on Turkish immigrant parents in England, Germany, the Netherlands, and Norway found four distinct profiles across all four countries — but their sizes differed significantly. In England, with its relatively multicultural national policy, the integration profile was more prominent, while in countries with a stronger emphasis on assimilation (like the Netherlands and Norway), the profile distribution shifted. [2025](https://doi.org/10.1007/s12134-024-01185-2) 
