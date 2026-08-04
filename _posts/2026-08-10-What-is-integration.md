@@ -4,11 +4,12 @@ title: "What is integration?"
 tags: politics
 ---
 
-Not so long ago I've learned what does it mean "integration", at least now I think I know.
+Not so long ago I've learned what does it mean "integration", at least now I think I know. We discussed it and later on I sit and did a quick research. I'm referring to John W. Berry's [Acculturation Model](https://en.wikipedia.org/wiki/John_W._Berry_(psychologist)#:~:text=The%20concept%20of%20acculturation%20strategies) introduced in 1980.
 
+For the MIPEX data - it measures how much the host country *enables* integration, not how immigrants actually end up. 
 <div id="mipex-wrap" style="width: 100%; overflow-x: auto;">
 
-<h2 class="sr-only">MIPEX 2025 — EU country scores on migrant integration policy, with breakdowns across eight policy areas</h2>
+<h3 class="sr-only">MIPEX 2025 — EU country scores on migrant integration policy, with breakdowns across eight policy areas</h3>
 
 <style>
   .mipex-wrap { padding: 1rem 0; font-family: var(--font-sans); }
