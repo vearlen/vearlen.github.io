@@ -8,7 +8,7 @@ Not so long ago I've learned what does it mean "integration", at least now I thi
 
 It could be described by simple matrix.  
 
-```mermaid
+<div class="mermaid">
 quadrantChart
     title Acculturation strategies (Berry 1980)
     x-axis "Home culture rejected" --> "Home culture maintained"
@@ -17,7 +17,7 @@ quadrantChart
     quadrant-2 Assimilation
     quadrant-3 Marginalization
     quadrant-4 Separation
-```
+</div>
 So Integration — being able to leave in host culture, while preserve value and maintain your own and it's quite different from Assimilation, which is often mixed. At least for me it was the case — I've mixed up those two terms frequently.
 
 But devil is in details — apparently we, immigrants, persue different strategy in private and public life. We are not simply sitting in one quadrant. Also in some researches it's shown that variation among same nationalities are huge. A 2024 study on Turkish immigrant parents in England, Germany, the Netherlands, and Norway found four distinct profiles across all four countries — but their sizes differed significantly. In England, with its relatively multicultural national policy, the integration profile was more prominent, while in countries with a stronger emphasis on assimilation (like the Netherlands and Norway), the profile distribution shifted. [2025](https://doi.org/10.1007/s12134-024-01185-2) 
