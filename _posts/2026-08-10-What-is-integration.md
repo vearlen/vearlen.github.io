@@ -4,7 +4,12 @@ title: "What is integration?"
 tags: politics
 ---
 
-Not so long ago I've learned what does it mean "integration", at least now I think I know. We discussed it and later on I sit and did a quick research. I'm referring to John W. Berry's [Acculturation Model](https://en.wikipedia.org/wiki/John_W._Berry_(psychologist)#:~:text=The%20concept%20of%20acculturation%20strategies) introduced in 1980.
+Not so long ago I've learned what does it mean "integration", at least now I think I know. We discussed it and later on I sit and did a quick research. I'm referring to John W. Berry's [Acculturation Model](https://open.maricopa.edu/culturepsychology/chapter/berrys-model-of-acculturation/) introduced in 1980. Yes, that's probably not new for someone with non-engineer education but for me it was new.  
+
+It could be described by simple matrix.  
+<img width="400" src='/assets/images/2026-08-10/Multicultural_acculturation-e1657405870340.png'>
+
+But devil is in details - apparently we, immigrants, persue different strategy in private and public life. We are not sitting in one quadrant. 
 
 For the MIPEX data - it measures how much the host country *enables* integration, not how immigrants actually end up. 
 <div id="mipex-wrap" style="width: 100%; overflow-x: auto;">
