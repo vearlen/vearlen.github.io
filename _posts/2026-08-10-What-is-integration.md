@@ -9,12 +9,12 @@ Not so long ago I've learned what does it mean "integration", at least now I thi
 It could be described by simple matrix.  
 <img width="400" src='/assets/images/2026-08-10/Multicultural_acculturation-e1657405870340.png'>
 
-But devil is in details - apparently we, immigrants, persue different strategy in private and public life. We are not sitting in one quadrant. 
+But devil is in details — apparently we, immigrants, persue different strategy in private and public life. We are not simply sitting in one quadrant. 
 
-For the MIPEX data - it measures how much the host country *enables* integration, not how immigrants actually end up. 
+There is recent Migrant Integration Policy Index data [2025](https://www.mipex.eu/key-findings-2025) which are quite interesting to explore. For example, EU-average is 54/100 and post-2004 member states (Czech Republic, Estonia, Latvia, Lithuania, Hungary, Poland, Slovakia, Slovenia, Cyprus, Malta, Bulgaria, Romania, Croatia) are on average 44 vs. 63 for pre-2004 countries. However it should be remembered — it measures how much the host country *enables* integration, not how immigrants actually end up. 
 <div id="mipex-wrap" style="width: 100%; overflow-x: auto;">
 
-<p class="sr-only" styel="font-weight:bold;">MIPEX 2025 — EU country scores on migrant integration policy, with breakdowns across eight policy areas</p>
+<h4 class="sr-only" styel="font-weight:bold;">MIPEX 2025 — EU country scores on migrant integration policy, with breakdowns across eight policy areas</h4>
 
 <style>
   .mipex-wrap { padding: 1rem 0; font-family: var(--font-sans); }
