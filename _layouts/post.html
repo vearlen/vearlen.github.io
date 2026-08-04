@@ -36,7 +36,20 @@ layout: base
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
+    <script>
+mermaid.initialize({
+  startOnLoad: true,
+  theme: 'base',
+  themeVariables: {
+    quadrantTitleFill: '#ffffff',
+    quadrantXAxisTextFill: '#ffffff',
+    quadrantYAxisTextFill: '#ffffff',
+    quadrantPointTextFill: '#ffffff',
+    quadrantInternalBorderStrokeFill: '#ffffff',
+    quadrantExternalBorderStrokeFill: '#ffffff'
+  }
+});
+</script>
   </div>
 
   {%- if site.disqus.shortname -%}
