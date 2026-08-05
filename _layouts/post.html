@@ -37,16 +37,20 @@ layout: base
     {{ content }}
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
+const mermaidIsDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const mermaidTextColor = mermaidIsDark ? '#ffffff' : '#1f2937';
+const mermaidBorderColor = mermaidIsDark ? '#ffffff' : '#4b5563';
+
 mermaid.initialize({
   startOnLoad: true,
   theme: 'base',
   themeVariables: {
-    quadrantTitleFill: '#ffffff',
-    quadrantXAxisTextFill: '#ffffff',
-    quadrantYAxisTextFill: '#ffffff',
-    quadrantPointTextFill: '#ffffff',
-    quadrantInternalBorderStrokeFill: '#ffffff',
-    quadrantExternalBorderStrokeFill: '#ffffff'
+    quadrantTitleFill: mermaidTextColor,
+    quadrantXAxisTextFill: mermaidTextColor,
+    quadrantYAxisTextFill: mermaidTextColor,
+    quadrantPointTextFill: mermaidTextColor,
+    quadrantInternalBorderStrokeFill: mermaidBorderColor,
+    quadrantExternalBorderStrokeFill: mermaidBorderColor
   }
 });
 </script>
