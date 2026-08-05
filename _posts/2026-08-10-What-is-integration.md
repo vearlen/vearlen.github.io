@@ -10,7 +10,7 @@ It could be described by simple matrix.
 
 <div class="mermaid">
 quadrantChart
-    title Acculturation strategies (Berry 1980)
+    title Acculturation strategies (John W. Berry 1980)
     x-axis "Home culture rejected" --> "Home culture maintained"
     y-axis "Host culture rejected" --> "Host culture adopted"
     quadrant-1 Integration
@@ -124,8 +124,7 @@ function buildMap(areaKey) {
     plot_bgcolor: paperBg,
     geo: {
       domain: { x: [0, 1], y: [0, 1] },
-      scope: 'europe',
-      fitbounds: 'locations',
+      scope: 'world',
       showcountries: true,
       countrycolor: countryLine,
       showland: true,
@@ -137,7 +136,9 @@ function buildMap(areaKey) {
         type: 'mercator',
         scale: 1.08
       },
-      center: { lon: 14, lat: 54 }
+      center: { lon: 14, lat: 54 },
+      lonaxis: { range: [-28, 45] },
+      lataxis: { range: [30, 73] }
     }
   };
 
