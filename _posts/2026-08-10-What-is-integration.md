@@ -122,6 +122,7 @@ function buildMap(areaKey) {
     paper_bgcolor: paperBg,
     plot_bgcolor: paperBg,
     geo: {
+      domain: { x: [0.05, 0.95], y: [0, 1] },
       scope: 'europe',
       fitbounds: 'locations',
       showcountries: true,
