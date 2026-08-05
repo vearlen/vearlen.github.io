@@ -4,7 +4,7 @@ title: "What is integration?"
 tags: politics misc
 ---
 
-Not so long ago I've learned what does it mean "integration", at least now I think I know. [[see Socrat]](https://en.wikipedia.org/wiki/I_know_that_I_know_nothing) The thing I've learned was introduced in 1980 by John W. Berry, canadian psychologist and known as [Acculturation Model](https://open.maricopa.edu/culturepsychology/chapter/berrys-model-of-acculturation/). Probably that's not that new for someone with non-engineer education but for me it was new.  
+Not so long ago I've learned what does it mean "integration", at least now I think I know, [see Socrat](https://en.wikipedia.org/wiki/I_know_that_I_know_nothing) for details. The thing I've learned was introduced in 1980 by John W. Berry, canadian psychologist and known as [Acculturation Model](https://open.maricopa.edu/culturepsychology/chapter/berrys-model-of-acculturation/). Probably that's not that new for someone with non-engineer education but for me it was new.  
 
 It could be described by simple matrix.  
 
@@ -24,7 +24,7 @@ But devil is in details — apparently we, immigrants, persue different strategy
 
 I can tell from my own experience — even during the week and sometimes even within the day my strategy might change. It could be as simple decision as about having a lunch at 11:30-12:00 or later ;) or more.
 
-Detailed study from Finland gives interesting breakdown consdiering immigrants generations. Among immigrant-origin youth surveyed in 2023, 71% belonged to high- or medium-integration profiles. The full breakdown was: Medium integration 49%, High integration 22%, "Neo-culture kid" 15%, Separation 6%, Assimilation 6%, and Marginalization the smallest group.[[2025]](https://doi.org/10.1007/s12134-024-01194-1)
+Detailed study from Finland gives interesting breakdown consdiering immigrants generations. Among immigrant-origin youth surveyed in 2023, 71% belonged to high- or medium-integration profiles. The full breakdown was: Medium integration 49%, High integration 22%, "Neo-culture kid" 15%, Separation 6%, Assimilation 6%, and Marginalization the smallest group. [[2025]](https://doi.org/10.1007/s12134-024-01194-1)
 
 **Is it good to be integrated?** Yes. People have better school adaption, better work performance, higher wellbeing. Also people with separation have higher levels of depressive symptoms compared to integration. However, even though "integration is best" is widely supported in research community, there is reverse-causality argument or question: people with good mental health and adaptive social skills going to integrate more likely. So what is cause factor there? 
 
@@ -53,13 +53,13 @@ Recent [Migrant Integration Policy Index data 2025](https://www.mipex.eu/key-fin
     <span><span class="tier-dot" style="background:#EF9F27"></span>Halfway favourable (41–59)</span>
     <span><span class="tier-dot" style="background:#E24B4A"></span>Slightly unfavourable (21–40)</span>
   </div>
-  <div style="position:relative; width:100%;">
-    <canvas id="mipexChart" role="img" aria-label="Horizontal bar chart of MIPEX 2025 scores for 27 EU countries across selected policy areas"></canvas>
+  <div style="position:relative; width:100%; min-height:520px;">
+    <div id="mipexMap" role="img" aria-label="Choropleth map of MIPEX 2025 scores for 27 EU countries across selected policy areas" style="width:100%; height:520px;"></div>
   </div>
   <p class="note">Source: MIPEX 2025 (Migration Policy Group). Policy scores measure legal frameworks, not actual immigrant outcomes. EU-27 average overall: 54/100.</p>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <script>
 const areas = {
   overall: { label: 'Overall score', data: { SE:86,FI:84,PT:83,BE:70,ES:64,DE:61,LU:61,IE:59,IT:58,NL:57,FR:56,RO:52,SI:52,EE:51,CZ:49,DK:49,EL:49,MT:48,AT:47,HR:44,PL:44,CY:41,HU:41,BG:39,SK:39,LT:37,LV:36 }},
@@ -77,69 +77,72 @@ const countryNames = {
   SE:'Sweden',FI:'Finland',PT:'Portugal',BE:'Belgium',ES:'Spain',DE:'Germany',LU:'Luxembourg',IE:'Ireland',IT:'Italy',NL:'Netherlands',FR:'France',RO:'Romania',SI:'Slovenia',EE:'Estonia',CZ:'Czechia',DK:'Denmark',EL:'Greece',MT:'Malta',AT:'Austria',HR:'Croatia',PL:'Poland',CY:'Cyprus',HU:'Hungary',BG:'Bulgaria',SK:'Slovakia',LT:'Lithuania',LV:'Latvia'
 };
 
-function getColor(score) {
-  if (score >= 80) return '#1D9E75';
-  if (score >= 60) return '#378ADD';
-  if (score >= 41) return '#EF9F27';
-  return '#E24B4A';
-}
+const iso3 = {
+  SE:'SWE',FI:'FIN',PT:'PRT',BE:'BEL',ES:'ESP',DE:'DEU',LU:'LUX',IE:'IRL',IT:'ITA',NL:'NLD',FR:'FRA',RO:'ROU',SI:'SVN',EE:'EST',CZ:'CZE',DK:'DNK',EL:'GRC',MT:'MLT',AT:'AUT',HR:'HRV',PL:'POL',CY:'CYP',HU:'HUN',BG:'BGR',SK:'SVK',LT:'LTU',LV:'LVA'
+};
+let mapReady = false;
 
-let currentArea = 'overall';
-let chart;
-
-function buildChart(areaKey) {
+function buildMap(areaKey) {
   const area = areas[areaKey];
-  const sorted = Object.entries(area.data).sort((a,b) => b[1]-a[1]);
-  const labels = sorted.map(([k]) => countryNames[k]);
-  const values = sorted.map(([,v]) => v);
-  const colors = values.map(v => getColor(v));
-  const wrapperH = Math.max(sorted.length * 34 + 60, 200);
-  document.getElementById('mipexChart').parentElement.style.height = wrapperH + 'px';
+  const entries = Object.entries(area.data);
+  const locations = entries.map(([k]) => iso3[k]);
+  const values = entries.map(([,v]) => v);
+  const labels = entries.map(([k]) => countryNames[k]);
 
-  if (chart) chart.destroy();
   const isDark = matchMedia('(prefers-color-scheme: dark)').matches;
-  const gridColor = isDark ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.07)';
-  const textColor = isDark ? '#aaa' : '#666';
+  const countryLine = isDark ? '#2B2B2B' : '#FFFFFF';
+  const paperBg = 'rgba(0,0,0,0)';
+  const geoBg = isDark ? '#151515' : '#F8FAFC';
 
-  chart = new Chart(document.getElementById('mipexChart'), {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [{
-        data: values,
-        backgroundColor: colors,
-        borderWidth: 0,
-        barThickness: 20
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            title: (items) => items[0].label,
-            label: (item) => ` ${item.raw}/100 — ${area.label}`
-          }
-        }
-      },
-      scales: {
-        x: {
-          min: 0, max: 100,
-          grid: { color: gridColor },
-          ticks: { color: textColor, font: { size: 11 }, stepSize: 20 },
-          border: { display: false }
-        },
-        y: {
-          grid: { display: false },
-          ticks: { color: textColor, font: { size: 11 }, autoSkip: false },
-          border: { display: false }
-        }
-      }
+  const trace = {
+    type: 'choropleth',
+    locationmode: 'ISO-3',
+    locations,
+    z: values,
+    text: labels,
+    zmin: 0,
+    zmax: 100,
+    colorscale: [
+      [0.00, '#E24B4A'],
+      [0.40, '#E24B4A'],
+      [0.41, '#EF9F27'],
+      [0.59, '#EF9F27'],
+      [0.60, '#378ADD'],
+      [0.79, '#378ADD'],
+      [0.80, '#1D9E75'],
+      [1.00, '#1D9E75']
+    ],
+    marker: { line: { color: countryLine, width: 0.8 } },
+    showscale: false,
+    hovertemplate: '%{text}<br>%{z}/100 — ' + area.label + '<extra></extra>'
+  };
+
+  const layout = {
+    margin: { l: 0, r: 0, t: 0, b: 0 },
+    paper_bgcolor: paperBg,
+    plot_bgcolor: paperBg,
+    geo: {
+      scope: 'europe',
+      fitbounds: 'locations',
+      showcountries: true,
+      countrycolor: countryLine,
+      showland: true,
+      landcolor: geoBg,
+      showlakes: true,
+      lakecolor: paperBg,
+      bgcolor: paperBg,
+      projection: { type: 'mercator' }
     }
-  });
+  };
+
+  const config = { responsive: true, displayModeBar: false };
+  const mapEl = document.getElementById('mipexMap');
+  if (!mapReady) {
+    Plotly.newPlot(mapEl, [trace], layout, config);
+    mapReady = true;
+  } else {
+    Plotly.react(mapEl, [trace], layout, config);
+  }
 }
 
 const controls = document.getElementById('controls');
@@ -150,13 +153,12 @@ Object.entries(areas).forEach(([key, val]) => {
   btn.onclick = () => {
     document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    currentArea = key;
-    buildChart(key);
+    buildMap(key);
   };
   controls.appendChild(btn);
 });
 
-buildChart('overall');
+buildMap('overall');
 </script>
 
 </div>
