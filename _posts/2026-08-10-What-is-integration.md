@@ -4,7 +4,7 @@ title: "What is integration?"
 tags: politics misc
 ---
 
-Not so long ago I've learned what does it mean "integration", at least now I think I know. I've learned it from Anka and later on I did a quick research. The thing I've learned was introduced in 1980 by John W. Berry, canadian psychologist and known as [Acculturation Model](https://open.maricopa.edu/culturepsychology/chapter/berrys-model-of-acculturation/). Yes, that's probably not new for someone with non-engineer education but for me it was new.  
+Not so long ago I've learned what does it mean "integration", at least now I think I know. [[see Socrat]](https://en.wikipedia.org/wiki/I_know_that_I_know_nothing) The thing I've learned was introduced in 1980 by John W. Berry, canadian psychologist and known as [Acculturation Model](https://open.maricopa.edu/culturepsychology/chapter/berrys-model-of-acculturation/). Probably that's not that new for someone with non-engineer education but for me it was new.  
 
 It could be described by simple matrix.  
 
@@ -18,17 +18,17 @@ quadrantChart
     quadrant-3 Marginalization
     quadrant-4 Separation
 </div>
-So Integration — being able to leave in host culture, while preserve value and maintain your own and it's quite different from Assimilation, which is often mixed. At least for me it was the case — I've mixed up those two terms frequently.
+So Integration — being able to leave in host culture, while preserve value and maintain your own and it's quite different from Assimilation, which is often mixed. At least for me it was the case — I've mixed up those two terms frequently. Integration is about value both cultures your own and your host.
 
-But devil is in details — apparently we, immigrants, persue different strategy in private and public life. We are not simply sitting in one quadrant. Also in some researches it's shown that variation among same nationalities are huge. A 2024 study on Turkish immigrant parents in England, Germany, the Netherlands, and Norway found four distinct profiles across all four countries — but their sizes differed significantly. In England, with its relatively multicultural national policy, the integration profile was more prominent, while in countries with a stronger emphasis on assimilation (like the Netherlands and Norway), the profile distribution shifted. [2025](https://doi.org/10.1007/s12134-024-01185-2) 
+But devil is in details — apparently we, immigrants, persue different strategy in private and public life. We are not simply sitting in one quadrant. Also in some researches it's shown that variation even among same nationalities are huge. For example a 2024 study on Turkish immigrant parents in England, Germany, the Netherlands, and Norway found four  profiles across all four countries. In England, with its relatively multicultural national policy, the integration profile was more prominent, while in countries with a stronger emphasis on assimilation (like the Netherlands and Norway), the profile distribution shifted. [[2025]](https://doi.org/10.1007/s12134-024-01185-2) 
 
-From my own experience I can tell — even during the week, sometimes within the day even, my strategy might change. It could be as simple decision as about having a lunch at 11:30-12:00 or later ;)
+I can tell from my own experience — even during the week and sometimes even within the day my strategy might change. It could be as simple decision as about having a lunch at 11:30-12:00 or later ;) or more.
 
-A 2024 study from Finland gives interesting breakdown consdiering generations. Among immigrant-origin youth surveyed in 2023, 71% belonged to high- or medium-integration profiles. The full breakdown was: Medium integration 49%, High integration 22%, "Neo-culture kid" 15%, Separation 6%, Assimilation 6%, and Marginalization the smallest group.[2025](https://doi.org/10.1007/s12134-024-01194-1)
+Detailed study from Finland gives interesting breakdown consdiering immigrants generations. Among immigrant-origin youth surveyed in 2023, 71% belonged to high- or medium-integration profiles. The full breakdown was: Medium integration 49%, High integration 22%, "Neo-culture kid" 15%, Separation 6%, Assimilation 6%, and Marginalization the smallest group.[[2025]](https://doi.org/10.1007/s12134-024-01194-1)
 
-Is it good to be integrated? Yes. People have better school adaption, better work performance, higher wellbeing. Also people with separation have higher levels of depressive symptoms compared to integration. Even though "integration is best" is widely supported, I also think so btw. There is reverse-causality argument: people with good mental health and adaptive social skills going to integrate more likely. 
+**Is it good to be integrated?** Yes. People have better school adaption, better work performance, higher wellbeing. Also people with separation have higher levels of depressive symptoms compared to integration. However, even though "integration is best" is widely supported in research community, there is reverse-causality argument or question: people with good mental health and adaptive social skills going to integrate more likely. So what is cause factor there? 
 
-There is recent Migrant Integration Policy Index data [2025](https://www.mipex.eu/key-findings-2025) which are quite interesting to explore. For example, EU-average is 54/100 and post-2004 member states (Czech Republic, Estonia, Latvia, Lithuania, Hungary, Poland, Slovakia, Slovenia, Cyprus, Malta, Bulgaria, Romania, Croatia) are on average 44 vs. 63 for pre-2004 countries. However it should be remembered — it measures how much the host country *enables* integration, not how immigrants actually end up. 
+Recent [Migrant Integration Policy Index data 2025](https://www.mipex.eu/key-findings-2025) is  quite interesting to explore. For example, EU-average is 54/100 and post-2004 member states (Czech Republic, Estonia, Latvia, Lithuania, Hungary, Poland, Slovakia, Slovenia, Cyprus, Malta, Bulgaria, Romania, Croatia) are on average 44 vs. 63 for pre-2004 countries. However it should be *remembered* — it measures how much the host country *enables* integration, not how immigrants actually end up. 
 
 <div id="mipex-wrap" style="width: 100%; overflow-x: auto;">
 
@@ -161,4 +161,4 @@ buildChart('overall');
 
 </div>
 
-But again — better policy push immigrants towards integration but it's not a guarantee.
+And again — better policy push immigrants towards integration but it's not a guarantee.
