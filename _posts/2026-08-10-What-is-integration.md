@@ -53,8 +53,8 @@ Recent [Migrant Integration Policy Index data 2025](https://www.mipex.eu/key-fin
     <span><span class="tier-dot" style="background:#EF9F27"></span>Halfway favourable (41–59)</span>
     <span><span class="tier-dot" style="background:#E24B4A"></span>Slightly unfavourable (21–40)</span>
   </div>
-  <div style="position:relative; width:100%; min-height:520px;">
-    <div id="mipexMap" role="img" aria-label="Choropleth map of MIPEX 2025 scores for 27 EU countries across selected policy areas" style="width:100%; height:520px;"></div>
+  <div style="position:relative; width:100%;">
+    <div id="mipexMap" role="img" aria-label="Choropleth map of MIPEX 2025 scores for 27 EU countries across selected policy areas" style="width:100%; height:clamp(320px, 46vw, 400px);"></div>
   </div>
   <p class="note">Source: MIPEX 2025 (Migration Policy Group). Policy scores measure legal frameworks, not actual immigrant outcomes. EU-27 average overall: 54/100.</p>
 </div>
@@ -133,7 +133,11 @@ function buildMap(areaKey) {
       showlakes: true,
       lakecolor: paperBg,
       bgcolor: paperBg,
-      projection: { type: 'mercator' }
+      projection: {
+        type: 'mercator',
+        scale: 1.08
+      },
+      center: { lon: 14, lat: 54 }
     }
   };
 
