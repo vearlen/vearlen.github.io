@@ -140,8 +140,8 @@ function buildMap(areaKey) {
         scale: 1
       },
       center: { lon: 14, lat: 54 },
-      lonaxis: { range: [-55, 75] },
-      lataxis: { range: [25, 72] }
+      lonaxis: { range: [-70, 90] },
+      lataxis: { range: [20, 72] }
     }
   };
 
