@@ -43,6 +43,8 @@ Recent [Migrant Integration Policy Index data 2025](https://www.mipex.eu/key-fin
   .tier-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 1.25rem; font-size: 11px; color: var(--color-text-secondary); }
   .tier-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; margin-right: 4px; vertical-align: middle; }
   .note { font-size: 11px; color: var(--color-text-tertiary); margin-top: 1rem; }
+  #mipexMap, #mipexMap .main-svg { border: 0 !important; outline: none !important; }
+  #mipexMap .geo .bg { stroke: none !important; }
 </style>
 
 <div class="mipex-wrap">
@@ -125,6 +127,7 @@ function buildMap(areaKey) {
     geo: {
       domain: { x: [0, 1], y: [0, 1] },
       scope: 'world',
+      showframe: false,
       showcountries: true,
       countrycolor: countryLine,
       showland: true,
@@ -137,8 +140,8 @@ function buildMap(areaKey) {
         scale: 1
       },
       center: { lon: 14, lat: 54 },
-      lonaxis: { range: [-30, 50] },
-      lataxis: { range: [30, 73] }
+      lonaxis: { range: [-55, 75] },
+      lataxis: { range: [25, 72] }
     }
   };
 
