@@ -134,10 +134,10 @@ function buildMap(areaKey) {
       bgcolor: paperBg,
       projection: {
         type: 'mercator',
-        scale: 1.08
+        scale: 1
       },
       center: { lon: 14, lat: 54 },
-      lonaxis: { range: [-28, 45] },
+      lonaxis: { range: [-30, 50] },
       lataxis: { range: [30, 73] }
     }
   };
