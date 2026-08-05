@@ -92,7 +92,8 @@ function buildMap(areaKey) {
   const isDark = matchMedia('(prefers-color-scheme: dark)').matches;
   const countryLine = isDark ? '#2B2B2B' : '#FFFFFF';
   const paperBg = 'rgba(0,0,0,0)';
-  const geoBg = isDark ? '#151515' : '#F8FAFC';
+  // Base land color also covers countries without a value.
+  const geoBg = isDark ? '#151515' : '#E5E7EB';
 
   const trace = {
     type: 'choropleth',
@@ -122,7 +123,7 @@ function buildMap(areaKey) {
     paper_bgcolor: paperBg,
     plot_bgcolor: paperBg,
     geo: {
-      domain: { x: [0.05, 0.95], y: [0, 1] },
+      domain: { x: [0, 1], y: [0, 1] },
       scope: 'europe',
       fitbounds: 'locations',
       showcountries: true,
